@@ -10,11 +10,12 @@ module.exports = {
     logo: '/img/hero.jpeg',
     lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间,
     nav: [
-      { text: '前端', link: '/Fe/' },
-      { text: '仓库', link: '/Store/' },
+      { text: 'Web', link: '/Fe/' },
+      { text: 'Ops', link: '/Ops/' },
+      { text: 'Network', link: '/Network/' },
       { text: '随笔', link: '/Thought/' },
       {
-        text: '联系',
+        text: 'Contact',
         items: [
           // link：指向链接也可以是外网链接
           { text: 'github', link: 'https://github.com/lengband' },
@@ -31,11 +32,12 @@ module.exports = {
           title: '消化堆',
           // 子菜单
           children: [
-            ['','前端'],
             // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
             // 不以 '/' 结尾的就是指向.md文件
-            ['/Fe/use/', '食用指南'], // '/FAQ/DigestionHeap/Digested.md'文件
-            ['/Fe/a', 'aaa'],
+            ['','前端'],
+            ['/Fe/use/', '食用指南'],
+            ['/Fe/codeDesign/', 'Code Design'],
+            ['/Fe/electron/', 'Electron'],
           ],
         },
       ],

@@ -1,2 +1,2 @@
 <demo-1/>
-[使用指南](./use/README.md)
+[你不知道的JS](./js/README.md)
