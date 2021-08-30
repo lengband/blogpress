@@ -41,6 +41,10 @@ module.exports = {
           ],
         },
       ],
+      '/Ops/': [
+        ['/Ops/docker/', 'Docker'],
+        ['/Ops/k8s/', 'K8S'],
+      ],
       // 打开Thought主页链接时生成下面这个菜单
       '/Thought/': [
         ['/Thought/', '随笔首页'],
