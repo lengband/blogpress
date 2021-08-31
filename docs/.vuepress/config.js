@@ -38,8 +38,12 @@ module.exports = {
             ['/Fe/use/', '食用指南'],
             ['/Fe/codeDesign/', 'Code Design'],
             ['/Fe/electron/', 'Electron'],
+            ['/Fe/node/', 'Node'],
+            ['/Fe/js/', '你不知道的JS'],
           ],
         },
+        ['/Fe/Interview/', '前端面试灵魂之问'],
+        ['/Fe/LeetCode/', 'LeetCode'],
       ],
       '/Ops/': [
         ['/Ops/docker/', 'Docker'],
@@ -47,13 +51,9 @@ module.exports = {
       ],
       // 打开Thought主页链接时生成下面这个菜单
       '/Thought/': [
-        ['/Thought/', '随笔首页'],
-        {
-          title: '年终回顾',
-          children: [
-            ['/Thought/YearReview/2021', '2021年'],
-          ],
-        },
+        ['/Thought/Go/', 'Golang'],
+        ['/Thought/mysql/', 'Mysql'],
+        ['/Thought/os/', 'OS'],
       ],
     },
   },
