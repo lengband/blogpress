@@ -49,6 +49,10 @@ module.exports = {
         ['/Ops/docker/', 'Docker'],
         ['/Ops/k8s/', 'K8S'],
       ],
+      '/Network/': [
+        ['/Network/Http/', '透析HTTP协议'],
+        ['/Network/Dns/', 'Dns'],
+      ],
       // 打开Thought主页链接时生成下面这个菜单
       '/Thought/': [
         ['/Thought/Go/', 'Golang'],
