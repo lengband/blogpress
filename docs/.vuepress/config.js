@@ -48,6 +48,7 @@ module.exports = {
       '/Ops/': [
         ['/Ops/docker/', 'Docker'],
         ['/Ops/k8s/', 'K8S'],
+        ['/Ops/cert/', 'Cert'],
       ],
       '/Network/': [
         ['/Network/Http/', '透析HTTP协议'],

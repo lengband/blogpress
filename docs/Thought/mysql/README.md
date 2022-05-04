@@ -1829,6 +1829,10 @@ Records: 0  Duplicates: 0  Warnings: 0
 （3）在干掉外键索引之前必须先把外键约束删除，才能删除索引
 ```
 
+- [外键推荐阅读-1](http://www.cppblog.com/wolf/articles/69089.html)
+- [外键推荐阅读-2](https://www.jianshu.com/p/010106e61cc6)
+
+
 ### 8.7 mysql核心知识之联合索引
 
 ​	**简介：详细介绍联合索引**
